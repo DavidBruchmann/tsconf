@@ -1,3 +1,8 @@
+0.1.1
+  2011-02-27
+  Improvement
+  * Extension title is moved from tsConf to tsConfig (search engine optimization)
+
 0.1.0
   2011-02-26
   New Features
