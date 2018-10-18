@@ -5,6 +5,7 @@
 options {
     // Enable to clear all caches
   clearCache {
+    pages = 1
     all   = 1
   }
 }

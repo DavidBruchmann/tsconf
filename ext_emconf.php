@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext "tsconf".
 #
-# Auto generated 08-08-2015 00:24
+# Auto generated 10-08-2015 01:37
 #
 # Manual updates:
 # Only the data in the array - everything else is removed by next
@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'description' => 'TS configuration for pages and users by the extension manager',
 	'category' => 'be',
 	'shy' => 0,
-	'version' => '0.0.5',
+	'version' => '0.0.7',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
