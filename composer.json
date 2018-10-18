@@ -14,7 +14,7 @@
 	"authors": [
 		{
 			"name": "Dirk Wildt (Die Netzmacher)",
-			"email": "wildt(at)die-netzmacher.de"
+            "homepage": "https://die-netzmacher.de/"
 		}
 	],
 	"replace": {
