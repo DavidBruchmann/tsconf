@@ -20,5 +20,8 @@
 	"replace": {
 		"tsconf": "self.version",
 		"wdb/tsconf": "self.version"
-	}
+	},
+    "suggests": {
+        "typo3/cms": ">=4.5.0,<6.2.0",
+    }
 }
