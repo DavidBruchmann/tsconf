@@ -1,0 +1,11 @@
+  /////////////////////////////////////////////////
+  //
+  // Enable clear all cache
+
+options {
+    // Enable to clear all caches
+  clearCache {
+    all   = 1
+  }
+}
+  // Enable clear all cache / page uids

@@ -1,0 +1,18 @@
+  # cat=basic/enable; type=boolean; label=Web page with reduced menu: Quick Edit and Page Information will be removed (recommended)
+page_mod_web_layout_menu_function = 1
+
+  # cat=basic/enable; type=boolean; label=Proper TCE form for pages: Fields alias and contend_from_pid will be disabled (recommended)
+page_tceform_pages = 1
+
+  # cat=basic/enable; type=boolean; label=Proper TCE form for tt_content: Reduce headers from seven to four. Proper translation for headers (recommended) 
+page_tceform_ttconent = 1
+
+  # cat=basic/enable; type=boolean; label=AdminPanel: The backend user will haven a adminPanel in the frontend (recommended)
+user_adminpanel = 1
+
+  # cat=basic/enable; type=boolean; label=Enable cache cleaning: The backend user is allowed to clean the whole TYPO3 cache. A thunderbolt - the cache icon - will be displayed in the right top corner (recommended)
+user_options_cache = 1
+
+  # cat=basic/enable; type=boolean; label=Pagetree with uids: The items in the pagetree will displayed with their uids (recommended)
+user_options_pagetreeuid = 1
+
