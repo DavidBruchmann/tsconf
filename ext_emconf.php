@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext "tsconf".
 #
-# Auto generated 10-08-2015 01:37
+# Auto generated 11-08-2015 20:44
 #
 # Manual updates:
 # Only the data in the array - everything else is removed by next
@@ -15,12 +15,12 @@ $EM_CONF[$_EXTKEY] = array(
 	'description' => 'TS configuration for pages and users by the extension manager',
 	'category' => 'be',
 	'shy' => 0,
-	'version' => '0.0.7',
+	'version' => '0.1.0',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
 	'loadOrder' => '',
-	'TYPO3_version' => '',
+	'TYPO3_version' => '4.5.0-0.0.0',
 	'PHP_version' => '',
 	'module' => '',
 	'state' => 'stable',

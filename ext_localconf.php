@@ -10,6 +10,16 @@ if ($_EXTCONF['page_mod_web_layout_menu_function'])
   t3lib_extMgm::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tsconf/pageTSconfig_weblayout_menu_functions.txt">');
 }
 
+if ($_EXTCONF['page_mod_web_list_enableButtons'])
+{
+  t3lib_extMgm::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tsconf/pageTSconfig_weblist_enablebuttons.txt">');
+}
+
+if ($_EXTCONF['user_options_filelist_enableButtons'])
+{
+  t3lib_extMgm::addUserTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tsconf/userTSconfig_filelist_enablebuttons.txt">');
+}
+
 if ($_EXTCONF['page_tceform_pages'])
 {
   t3lib_extMgm::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tsconf/pageTSconfig_tceform_pages.txt">');
