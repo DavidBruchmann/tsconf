@@ -1,0 +1,24 @@
+{
+	"name": "wdb/tsconf",
+	"type": "typo3-cms-extension",
+	"description": "The Backend Simplifier offers the configuration of the eight most commonly used properties for simplifying the TYPO3 backend by a mouse click. User interface is the extension manager. Enable page tree uids, use indvidual page tree icons, activate the extended view and the clipboard and the admin panel for all editors. Extend the cache thunderbolts with one for the system cache.",
+	"keywords": [
+		"typo3",
+		"TYPO3 CMS",
+        "extension",
+		"tsconf",
+        "Die Netzmacher",
+        "Dirk Wildt"
+	],
+	"homepage": "https://extensions.typo3.org/extension/tsconf/",
+	"authors": [
+		{
+			"name": "Dirk Wildt (Die Netzmacher)",
+			"email": "wildt(at)die-netzmacher.de"
+		}
+	],
+	"replace": {
+		"tsconf": "self.version",
+		"wdb/tsconf": "self.version"
+	}
+}
