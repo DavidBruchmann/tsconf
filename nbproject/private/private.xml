@@ -16,8 +16,8 @@
         </group>
         <group name="calendar"/>
         <group name="organiser"/>
-        <group name="civserv"/>
         <group name="markus-kurth.de"/>
+        <group name="civserv"/>
         <group name="TYPO3 6.2 Upgrade"/>
     </open-files>
 </project-private>
