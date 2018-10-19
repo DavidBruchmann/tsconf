@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext "tsconf".
 #
-# Auto generated 16-08-2015 12:38
+# Auto generated 19-08-2015 02:15
 #
 # Manual updates:
 # Only the data in the array - everything else is removed by next
@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'description' => 'Configure the TSconfig for your pages and users with the mouse! tsconf offers the eight most commonly used porperties like page tree uids, activated extended view, activated clipboard, activated admin panel and cache management for editors among others.',
 	'category' => 'be',
 	'shy' => 1,
-	'version' => '1.5.1',
+	'version' => '1.5.2',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
