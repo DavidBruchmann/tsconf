@@ -33,10 +33,10 @@ Backend Simplifier
 		Extend the cache thunderbolts with one for the system cache.
 
 	:Keywords:
-		backend, simplifier, page tree, system cache
+		backend, simplifier, page tree, cache
 
 	:Copyright:
-		2010-2016
+		2010-2017
 
 	:Author:
 		Dirk Wildt (Die Netzmacher)

@@ -28,7 +28,6 @@ if( !defined( 'TYPO3_MODE' ) )
  * page_tceform_ttcontent
  * page_mod_shared_deflangauge
  * pagetree_enhanced_context_menu
- * pagetree_enhanced_context_menu
  * user_options_defaultUploadFolder
  * user_options_pagetreeuid
  * **************************************************************************** */
@@ -104,10 +103,11 @@ if( $_EXTCONF[ 'user_options_filelist_enableButtons' ] )
  * page_tceform_pages
  * **************************************************************************** */
 
-if( $_EXTCONF[ 'page_tceform_pages' ] )
-{
-  \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tsconf/Configuration/TSconfig/Page/tceform_pages.txt">' );
-}
+// #i0017, 161229, dwildt, 4-
+//if( $_EXTCONF[ 'page_tceform_pages' ] )
+//{
+//  \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tsconf/Configuration/TSconfig/Page/tceform_pages.txt">' );
+//}
 
 /* * ****************************************************************************
  * page_tceform_ttcontent

@@ -6,15 +6,11 @@
 .. include:: ../../Includes.txt
 
 
-.. _introduction-what-do-you-need:
+.. _editors_simplifybackend:
 
-What do you need?
-=================
+Simplify the Backend
+====================
 
-Nothing but
+If you likee to simplify the backend, you need admin access.
 
-- TYPO3 6.2
-
-- TYPO3 7.6
-
-- TYPO3 8.7
+Please refer to the section :ref:`Integrators <integrators>`.

@@ -11,8 +11,11 @@
 Editors
 =======
 
-The Backend Simplifier makes the work with TYPO3 easier, it simplifies the TYPO3 Backend.
+**Table of Contents**
 
-If you have admin access, you can simplify the backend with some mouse clicks.
+.. toctree::
+    :maxdepth: 2
+    :titlesonly:
 
-Please refer to the section :ref:`Integrators <integrators>`.
+    01_Pagetreeicons/Index
+    02_Simplifybackend/Index

@@ -4,10 +4,10 @@
 
 ---
 conf.py:
-  copyright: 2010-2016
+  copyright: 2010-2017
   project: Backend Simplifier
-  version: 7.1
-  release: 7.1.1
+  version: 7.2
+  release: 7.2.0
   latex_documents:
   - - Index
     - tsconf.tex

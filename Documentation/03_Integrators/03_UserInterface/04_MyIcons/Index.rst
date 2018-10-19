@@ -32,8 +32,8 @@ Your Configuration File
   - Proper: myOthIcon <- 9 characters
   - Not proper: myOtherIcon <- 11 characters
 
-Code Snippet
-^^^^^^^^^^^^
+Code Snippet (TYPO3 < 8.x only!)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You have to adapt the variables in the code snippet below, which are marked red and bold.
 

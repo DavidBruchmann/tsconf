@@ -17,11 +17,11 @@
             "homepage": "https://die-netzmacher.de/"
 		}
 	],
-    "require": {
-        "typo3/cms": ">=6.2.0,<=7.6.99"
-    },
 	"replace": {
 		"tsconf": "self.version",
 		"wdb/tsconf": "self.version"
-	}
+	},
+    "suggest": {
+        "typo3/cms": ">=6.2.0,<=8.9.99"
+    }
 }
