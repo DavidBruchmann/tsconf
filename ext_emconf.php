@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext "tsconf".
 #
-# Auto generated 19-08-2015 00:36
+# Auto generated 21-08-2015 14:15
 #
 # Manual updates:
 # Only the data in the array - everything else is removed by next
@@ -14,22 +14,22 @@ $EM_CONF[$_EXTKEY] = array(
 	'title' => 'TSconfig Pages and Users by extManager',
 	'description' => 'Configure the TSconfig for your pages and users with the mouse! tsconf offers the eight most commonly used porperties like page tree uids, activated extended view, activated clipboard, activated admin panel and cache management for editors among others.',
 	'category' => 'be',
-	'shy' => 0,
-	'version' => '1.3.1',
+	'shy' => 1,
+	'version' => '1.4.2',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
 	'loadOrder' => '',
-	'TYPO3_version' => '4.5.0-6.1.99',
+	'TYPO3_version' => '4.5.0-6.2.99',
 	'PHP_version' => '',
 	'module' => '',
 	'state' => 'stable',
-	'uploadfolder' => 0,
+	'uploadfolder' => 1,
 	'createDirs' => '',
 	'modify_tables' => '',
-	'clearcacheonload' => 0,
+	'clearcacheonload' => 1,
 	'lockType' => '',
-	'author' => 'Dirk Wildt - Die Netzmacher GbR',
+	'author' => 'Dirk Wildt (Die Netzmacher)',
 	'author_email' => 'http://wildt.at.die-netzmacher.de',
 	'author_company' => '',
 	'CGLcompliance' => '',
