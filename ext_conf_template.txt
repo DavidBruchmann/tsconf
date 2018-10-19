@@ -4,8 +4,8 @@ page_tceform_ttcontent = 1
 tca_ttcontentimages = Default (recommended)
   # cat=edit area/102;    type=options[,en,de]; label=Default language icon: Set the default language icon to Englisch or German. Recommended, if you have a localised website and the default language is English or German.
 page_mod_shared_deflangauge =
-  # cat=edit area/103;    type=boolean; label=Simplify page properties: [recommendend] Fields alias and contend_from_pid will be disabled.
-page_tceform_pages = 1
+  # cat=edit area/103;    type=boolean; label=Simplify page properties: Fields alias and contend_from_pid will be disabled.
+page_tceform_pages = 0
   # cat=edit area/104;    type=boolean; label=Big form fields: [recommendend] TypoScript templates: Display include static templates with place for upto 40 items and an enhanced width.
 tca_systemplate = 1
 
@@ -20,8 +20,10 @@ page_mod_web_list_enableButtons = 1
   # cat=my icons/401;    type=string; label=Path: Path to your configuration file for including individual icons. Without beginning slash. Default: typo3conf/ext/tsconf/Resources/Private/myPageTreeIcons.php. Copy this file to the fileadmin directory and adapt it to your needs. Example: fileadmin/mytsconf/myPageTreeIcons.php
 mytsconf.path = typo3conf/ext/tsconf/Resources/Private/myPageTreeIcons.php
 
-  # cat=pagetree/500;     type=boolean; label=Pagetree with uids: [recommendend] The items in the pagetree will displayed with their uids.
+  # cat=pagetree/500;     type=boolean; label=uids: [recommendend] The items in the pagetree will displayed with their uids.
 user_options_pagetreeuid = 1
+  # cat=pagetree/501;     type=boolean; label=Enhanced context menu: [recommendend] Enhances the context menu with page actions like Hide in Menus and Exclude from Search
+pagetree_enhanced_context_menu = 1
 
   # cat=user/600;         type=boolean; label=AdminPanel: [recommendend] The backend user will have an adminPanel in the frontend.
 user_adminpanel = 1

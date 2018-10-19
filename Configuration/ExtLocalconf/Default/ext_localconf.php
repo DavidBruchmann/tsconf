@@ -1,6 +1,20 @@
 <?php
 
 //$typo_db_extTableDef_script = 'extTables.php';
+// #70445, 151006, dwildt, 3+
+if ( !defined( 'TYPO3_MODE' ) )
+{
+  die( 'Access denied.' );
+}
+
+
+// #70445, 151006, dwildt, 6+
+if ( TYPO3_MODE == 'BE' && $_EXTCONF[ 'pagetree_enhanced_context_menu' ] )
+{
+  $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'SYS' ][ 'Objects' ][ 'TYPO3\\CMS\\Backend\\Tree\\Pagetree\\PagetreeNode' ] = array(
+    'className' => 'Netzmacher\\Tsconf\\Xclass\\PagetreeNode',
+  );
+}
 
 if ( $_EXTCONF[ 'page_mod_web_layout_menu_function' ] )
 {

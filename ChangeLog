@@ -1,3 +1,10 @@
+6.2.0
+  15-10-06
+  Feature
+  * #70445: Enhances the context menu of the pagetree
+  Improvement
+  * #i0009: Default value of page_tceform_pages is moved from 1 to 0
+
 6.1.0
   15-03-31
   Feature
