@@ -22,11 +22,6 @@ if( !isset( $_EXTCONF['page_mod_web_list_enableButtons']))
   $_EXTCONF['page_mod_web_list_enableButtons'] = 1;
 }
 
-if( !isset( $_EXTCONF['page_tceform_pages']))
-{
-  $_EXTCONF['page_tceform_pages'] = 1;
-}
-
 if( !isset( $_EXTCONF['page_tceform_ttcontent']))
 {
   $_EXTCONF['page_tceform_ttcontent'] = 1;

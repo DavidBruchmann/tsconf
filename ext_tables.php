@@ -41,7 +41,10 @@ require_once( PATH_typo3conf . 'ext/tsconf/Configuration/ExtTables/confArray.php
  * Add pagetree icons
  * **************************************************************************** */
 
-require_once( PATH_typo3conf . 'ext/tsconf/Configuration/ExtTables/ext_tables.php' );
+//require_once( PATH_typo3conf . 'ext/tsconf/Configuration/ExtTables/ext_tables.php' );
+require_once( PATH_typo3conf . 'ext/tsconf/Configuration/ExtTables/pageTreeIcons.php' );
+require_once( PATH_typo3conf . 'ext/tsconf/Configuration/ExtTables/IconRegistry.php' );
+
 
 /* * ****************************************************************************
  * tca_ttcontentimages
@@ -93,6 +96,9 @@ switch ( $confArr[ 'tca_ttcontentimages' ] )
 if ( $confArr[ 'page_tceform_ttcontent' ] )
 {
   $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'SYS' ][ 'locallangXMLOverride' ][ 'EXT:frontend/Resources/Private/Language/locallang_ttc.xlf' ][] = 'EXT:tsconf/Resources/Private/Language/frontend/locallang_ttc.xlf';
+  // #i0013, dwildt, 1+
+  $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'SYS' ][ 'locallangXMLOverride' ][ 'EXT:cms/locallang_ttc.xlf' ][] = 'EXT:tsconf/Resources/Private/Language/frontend/locallang_ttc.xlf';
+
 }
 
 

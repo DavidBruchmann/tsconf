@@ -1,5 +1,19 @@
-Bug pagetreeicons
-See: https://wiki.typo3.org/TYPO3.CMS/Releases/7.5/Feature#BitmapIconProvider
+7.1.1
+  16-12-14
+  Improvement
+  * #i0016: ReST documentation
+  * #i0015: Downward compatibility TYPO3 6.2
+
+7.1.0
+  Sorry, but NO SUPPORT TYPO3 6.x any longer. 
+  16-11-01
+  Improvement
+  * #i0014: Bugfix pagetree icons
+
+7.0.1
+  16-06-26
+  Improvement
+  * #i0013: Language Overlay
 
 7.0.0
   16-06-25

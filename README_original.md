@@ -1,8 +1,7 @@
-# tsconf - Simplify your TYPO3 Backend!
-Configure the TSconfig of your pages and your users by a mouse click.
-tsconf offers the configuration of the eight most commonly used porperties within the estension manager.
-Like page tree uids and icons, activated extended view, activated clipboard, activated admin panel and clear cache for editors among others.
-Add your own icons to the page tree.
+# Backend Simplifier
+The Backend Simplifier offers the configuration of the eight most commonly used porperties for simplifying the TYPO3 backend by a mouse cklick. User interface is the estension manager.
+Enable page tree uids, use indvidual page tree icons, activate the extended view and the clipboard and the admin panel for all editors.
+Extend the cache thunderbolts with one for the system cache.
 
 ## Manuals
 + https://gitlab.die-netzmacher.de/typo3/tsconf/tree/master/doc

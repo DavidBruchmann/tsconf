@@ -2,10 +2,18 @@
 
 //$typo_db_extTableDef_script = 'extTables.php';
 // #70445, 151006, dwildt, 3+
-if ( !defined( 'TYPO3_MODE' ) )
+if( !defined( 'TYPO3_MODE' ) )
 {
   die( 'Access denied.' );
 }
+
+  /** @var \TYPO3\CMS\Core\Imaging\IconRegistry $iconRegistry */
+  $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance( \TYPO3\CMS\Core\Imaging\IconRegistry::class );
+//  $iconRegistry->registerIcon(
+//          'animator'
+//          , \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class
+//          , [ 'source' => 'EXT:tsconf/fi-address-book.svg' ]
+//  );
 
 /* * ****************************************************************************
  *
@@ -43,7 +51,7 @@ if ( !defined( 'TYPO3_MODE' ) )
  * page_mod_web_layout_menu_function
  * **************************************************************************** */
 
-if ( $_EXTCONF[ 'page_mod_web_layout_menu_function' ] )
+if( $_EXTCONF[ 'page_mod_web_layout_menu_function' ] )
 {
   \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tsconf/Configuration/TSconfig/Page/weblayout_menu_functions.txt">' );
 }
@@ -52,7 +60,7 @@ if ( $_EXTCONF[ 'page_mod_web_layout_menu_function' ] )
  * page_mod_web_list_enableButtons
  * **************************************************************************** */
 
-if ( $_EXTCONF[ 'page_mod_web_list_enableButtons' ] )
+if( $_EXTCONF[ 'page_mod_web_list_enableButtons' ] )
 {
   \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tsconf/Configuration/TSconfig/Page/weblist_enablebuttons.txt">' );
 }
@@ -61,7 +69,7 @@ if ( $_EXTCONF[ 'page_mod_web_list_enableButtons' ] )
  * tca_ttcontentimages
  * **************************************************************************** */
 
-switch ( $_EXTCONF[ 'tca_ttcontentimages' ] )
+switch( $_EXTCONF[ 'tca_ttcontentimages' ] )
 {
   case('Bootstrap'):
     $key = 'tsconf';
@@ -87,7 +95,7 @@ tt_content.image.20.addClassesCol.override.cObject.10.12.value = col-md-1 col-sm
  * user_options_filelist_enableButtons
  * **************************************************************************** */
 
-if ( $_EXTCONF[ 'user_options_filelist_enableButtons' ] )
+if( $_EXTCONF[ 'user_options_filelist_enableButtons' ] )
 {
   \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tsconf/Configuration/TSconfig/User/filelist_enablebuttons.txt">' );
 }
@@ -96,7 +104,7 @@ if ( $_EXTCONF[ 'user_options_filelist_enableButtons' ] )
  * page_tceform_pages
  * **************************************************************************** */
 
-if ( $_EXTCONF[ 'page_tceform_pages' ] )
+if( $_EXTCONF[ 'page_tceform_pages' ] )
 {
   \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tsconf/Configuration/TSconfig/Page/tceform_pages.txt">' );
 }
@@ -105,7 +113,7 @@ if ( $_EXTCONF[ 'page_tceform_pages' ] )
  * page_tceform_ttcontent
  * **************************************************************************** */
 
-if ( $_EXTCONF[ 'page_tceform_ttcontent' ] )
+if( $_EXTCONF[ 'page_tceform_ttcontent' ] )
 {
   \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tsconf/Configuration/TSconfig/Page/tceform_ttcontent.txt">' );
 }
@@ -114,7 +122,7 @@ if ( $_EXTCONF[ 'page_tceform_ttcontent' ] )
  * page_mod_shared_deflangauge
  * **************************************************************************** */
 
-switch ( $_EXTCONF[ 'page_mod_shared_deflangauge' ] )
+switch( $_EXTCONF[ 'page_mod_shared_deflangauge' ] )
 {
   case('de'):
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tsconf/Configuration/TSconfig/Page/mod_shared_defaultlang_de.txt">' );
@@ -124,7 +132,7 @@ switch ( $_EXTCONF[ 'page_mod_shared_deflangauge' ] )
     break;
   case(null):
   default:
-    // Don't include nothing
+// Don't include nothing
     break;
 }
 
@@ -132,7 +140,7 @@ switch ( $_EXTCONF[ 'page_mod_shared_deflangauge' ] )
  * pagetree_enhanced_context_menu
  * **************************************************************************** */
 
-if ( $_EXTCONF[ 'user_adminpanel' ] )
+if( $_EXTCONF[ 'user_adminpanel' ] )
 {
   \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tsconf/Configuration/TSconfig/User/adminPanel.txt">' );
 }
@@ -141,7 +149,7 @@ if ( $_EXTCONF[ 'user_adminpanel' ] )
  * user_clearcachesystem
  * **************************************************************************** */
 
-if ( $_EXTCONF[ 'user_clearcachesystem' ] )
+if( $_EXTCONF[ 'user_clearcachesystem' ] )
 {
   \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tsconf/Configuration/TSconfig/User/clearCacheSystem.txt">' );
 }
@@ -150,7 +158,7 @@ if ( $_EXTCONF[ 'user_clearcachesystem' ] )
  * pagetree_enhanced_context_menu
  * **************************************************************************** */
 
-if ( $_EXTCONF[ 'user_options_cache' ] )
+if( $_EXTCONF[ 'user_options_cache' ] )
 {
   \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tsconf/Configuration/TSconfig/User/options_cache.txt">' );
 }
@@ -159,7 +167,7 @@ if ( $_EXTCONF[ 'user_options_cache' ] )
  * user_options_defaultUploadFolder
  * **************************************************************************** */
 
-if ( $_EXTCONF[ 'user_options_defaultUploadFolder' ] )
+if( $_EXTCONF[ 'user_options_defaultUploadFolder' ] )
 {
   \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tsconf/Configuration/TSconfig/User/options_defaultUploadFolder.txt">' );
 }
@@ -168,7 +176,7 @@ if ( $_EXTCONF[ 'user_options_defaultUploadFolder' ] )
  * user_options_pagetreeuid
  * **************************************************************************** */
 
-if ( $_EXTCONF[ 'user_options_pagetreeuid' ] )
+if( $_EXTCONF[ 'user_options_pagetreeuid' ] )
 {
   \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:tsconf/Configuration/TSconfig/User/options_pagetreeuid.txt">' );
 }

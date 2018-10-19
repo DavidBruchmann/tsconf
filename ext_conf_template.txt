@@ -7,12 +7,12 @@ page_mod_shared_deflangauge =
   # cat=edit area/104;    type=boolean; label=Big form fields: [recommendend] TypoScript templates: Display include static templates with place for upto 40 items and an enhanced width.
 tca_systemplate = 1
 
-  # cat=module file/200;  type=boolean; label=File list with enabled buttons: [recommendend] Will be enabled by default: [Extended view], [Display thumbnails] and [Show clipboard].  You need TYPO3 >= 4.5.
+  # cat=module file/200;  type=boolean; label=File list with enabled buttons: [recommendend] Will be enabled by default: [Extended view], [Display thumbnails] and [Show clipboard].
 user_options_filelist_enableButtons = 1
 
   # cat=module web/300;   type=boolean; label=Web page with reduced menu: Quick Edit and Page Information will be removed.
 page_mod_web_layout_menu_function = 0
-  # cat=module web/301;   type=boolean; label=Web list with enabled buttons: [recommendend] Will be enabled by default: [Extended view] and [Show clipboard]. [Localization view] won't be overridden. You need TYPO3 >= 4.5.
+  # cat=module web/301;   type=boolean; label=Web list with enabled buttons: [recommendend] Will be enabled by default: [Extended view] and [Show clipboard]. [Localization view] won't be overridden.
 page_mod_web_list_enableButtons = 1
 
   # cat=my icons/401;    type=string; label=Path: Path to your configuration file for including individual icons. Without beginning slash. Default: typo3conf/ext/tsconf/Resources/Private/myPageTreeIcons.php. Copy this file to the fileadmin directory and adapt it to your needs. Example: fileadmin/mytsconf/myPageTreeIcons.php

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="283.465pt" version="1.1" xmlns="http://www.w3.org/2000/svg" height="283.465pt" viewBox="0 0 283.465 283.465" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="Grad0" y1="0" x1="0" y2="283.465" gradientUnits="userSpaceOnUse" x2="283.465">
+   <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+   <stop offset="50%" stop-color="#ee7400" stop-opacity="1"/>
+  </linearGradient>
+  <clipPath id="Clip0">
+   <path d="M0 0 L255.118 0 L255.118 257.652 L0 257.652 L0 0 Z" transform="translate(14.1732, 12.906)"/>
+  </clipPath>
+ </defs>
+ <g id="Hintergrund">
+  <g transform="translate(0, 0)">
+   <path style="fill:url(#Grad0); fill-rule:evenodd;" d="M0 0 L283.465 0 L283.465 283.465 L0 283.465 L0 0 Z"/>
+   <path style="fill:none; stroke:none;" d="M0 0 L283.465 0 L283.465 283.465 L0 283.465 L0 0 Z"/>
+  </g>
+  <g id="Gruppe7" clip-path="url(#Clip0)">
+   <path style="fill:#ffffff; fill-rule:nonzero;stroke:none;" d="M193.025 173.564 C189.196 174.69 186.142 175.113 182.135 175.113 C149.312 175.113 101.118 60.7574 101.118 22.6972 C101.118 8.68707 104.443 4.01296 109.14 0 C68.9703 4.67411 20.7694 19.373 5.35737 38.0573 C2.02628 42.7377 0 50.0745 0 59.423 C0 118.837 63.6068 253.658 108.474 253.658 C129.237 253.661 164.233 219.641 193.025 173.564 Z" transform="translate(14.1732, 16.8976)"/>
+   <path style="fill:#ffffff; fill-rule:nonzero;stroke:none;" d="M24.0943 0 C65.6024 0 107.138 6.67295 107.138 30.0344 C107.138 77.4278 76.9926 134.861 61.602 134.861 C34.149 134.861 0 58.7434 0 20.6831 C0.00307012 3.32729 6.69594 0 24.0943 0 Z" transform="translate(162.153, 12.906)"/>
+  </g>
+ </g>
+</svg>
