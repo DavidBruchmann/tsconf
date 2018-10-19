@@ -190,76 +190,76 @@ switch ( true )
     break;
   default:
     // #34858, 120320, dwildt
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-appl-exit', '../typo3conf/ext/tsconf/ext_icons/application-exit.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-appl-rss', '../typo3conf/ext/tsconf/ext_icons/application-rss+xml.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-appl-intrnt', '../typo3conf/ext/tsconf/ext_icons/applications-internet.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-calendar', '../typo3conf/ext/tsconf/ext_icons/office-calendar.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-animator', '../typo3conf/ext/tsconf/ext_icons/tool-animator.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-balloon', '../typo3conf/ext/tsconf/ext_icons/view-conversation-balloon.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-filter', '../typo3conf/ext/tsconf/ext_icons/view-filter.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-code-class', '../typo3conf/ext/tsconf/ext_icons/code-class.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-code-cntxt', '../typo3conf/ext/tsconf/ext_icons/code-context.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-cam-photo', '../typo3conf/ext/tsconf/ext_icons/camera-photo.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-media-dvd', '../typo3conf/ext/tsconf/ext_icons/media-optical-recordable.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-speaker', '../typo3conf/ext/tsconf/ext_icons/speaker.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-call-start', '../typo3conf/ext/tsconf/ext_icons/call-start.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-call-stop', '../typo3conf/ext/tsconf/ext_icons/call-stop.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-dlg-cancel', '../typo3conf/ext/tsconf/ext_icons/dialog-cancel.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-dlg-close', '../typo3conf/ext/tsconf/ext_icons/dialog-close.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-dlg-ok', '../typo3conf/ext/tsconf/ext_icons/dialog-ok-apply.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-dlg-passwd', '../typo3conf/ext/tsconf/ext_icons/dialog-password.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-help', '../typo3conf/ext/tsconf/ext_icons/help-hint.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-favorite', '../typo3conf/ext/tsconf/ext_icons/emblem-favorite.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-important', '../typo3conf/ext/tsconf/ext_icons/emblem-important.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-highscore', '../typo3conf/ext/tsconf/ext_icons/games-highscores.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-roll', '../typo3conf/ext/tsconf/ext_icons/roll.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-appl-dev', '../typo3conf/ext/tsconf/ext_icons/applications-development.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-chronom', '../typo3conf/ext/tsconf/ext_icons/chronometer.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-configure', '../typo3conf/ext/tsconf/ext_icons/configure.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-bomb', '../typo3conf/ext/tsconf/ext_icons/edit-bomb.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-home', '../typo3conf/ext/tsconf/ext_icons/home-mdk.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-prefrncs', '../typo3conf/ext/tsconf/ext_icons/preferences-system.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-sec-high', '../typo3conf/ext/tsconf/ext_icons/security-high.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-sec-low', '../typo3conf/ext/tsconf/ext_icons/security-low.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-sec-mdm', '../typo3conf/ext/tsconf/ext_icons/security-medium.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-stat-unknw', '../typo3conf/ext/tsconf/ext_icons/status_unknown.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-trash', '../typo3conf/ext/tsconf/ext_icons/user-trash.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-appl-exit', '../typo3conf/ext/tsconf/ext_icons/application-exit.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-appl-rss', '../typo3conf/ext/tsconf/ext_icons/application-rss+xml.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-appl-intrnt', '../typo3conf/ext/tsconf/ext_icons/applications-internet.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-calendar', '../typo3conf/ext/tsconf/ext_icons/office-calendar.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-animator', '../typo3conf/ext/tsconf/ext_icons/tool-animator.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-balloon', '../typo3conf/ext/tsconf/ext_icons/view-conversation-balloon.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-filter', '../typo3conf/ext/tsconf/ext_icons/view-filter.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-code-class', '../typo3conf/ext/tsconf/ext_icons/code-class.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-code-cntxt', '../typo3conf/ext/tsconf/ext_icons/code-context.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-cam-photo', '../typo3conf/ext/tsconf/ext_icons/camera-photo.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-media-dvd', '../typo3conf/ext/tsconf/ext_icons/media-optical-recordable.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-speaker', '../typo3conf/ext/tsconf/ext_icons/speaker.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-call-start', '../typo3conf/ext/tsconf/ext_icons/call-start.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-call-stop', '../typo3conf/ext/tsconf/ext_icons/call-stop.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-dlg-cancel', '../typo3conf/ext/tsconf/ext_icons/dialog-cancel.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-dlg-close', '../typo3conf/ext/tsconf/ext_icons/dialog-close.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-dlg-ok', '../typo3conf/ext/tsconf/ext_icons/dialog-ok-apply.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-dlg-passwd', '../typo3conf/ext/tsconf/ext_icons/dialog-password.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-help', '../typo3conf/ext/tsconf/ext_icons/help-hint.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-favorite', '../typo3conf/ext/tsconf/ext_icons/emblem-favorite.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-important', '../typo3conf/ext/tsconf/ext_icons/emblem-important.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-highscore', '../typo3conf/ext/tsconf/ext_icons/games-highscores.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-roll', '../typo3conf/ext/tsconf/ext_icons/roll.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-appl-dev', '../typo3conf/ext/tsconf/ext_icons/applications-development.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-chronom', '../typo3conf/ext/tsconf/ext_icons/chronometer.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-configure', '../typo3conf/ext/tsconf/ext_icons/configure.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-bomb', '../typo3conf/ext/tsconf/ext_icons/edit-bomb.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-home', '../typo3conf/ext/tsconf/ext_icons/home-mdk.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-prefrncs', '../typo3conf/ext/tsconf/ext_icons/preferences-system.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-sec-high', '../typo3conf/ext/tsconf/ext_icons/security-high.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-sec-low', '../typo3conf/ext/tsconf/ext_icons/security-low.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-sec-mdm', '../typo3conf/ext/tsconf/ext_icons/security-medium.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-stat-unknw', '../typo3conf/ext/tsconf/ext_icons/status_unknown.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-trash', '../typo3conf/ext/tsconf/ext_icons/user-trash.png' );
 
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-flg_black', '../typo3conf/ext/tsconf/ext_icons/flag-black.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-flg_blue', '../typo3conf/ext/tsconf/ext_icons/flag-blue.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-flg_green', '../typo3conf/ext/tsconf/ext_icons/flag-green.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-flg_red', '../typo3conf/ext/tsconf/ext_icons/flag-red.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-flg_yellow', '../typo3conf/ext/tsconf/ext_icons/flag-yellow.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-flg_black', '../typo3conf/ext/tsconf/ext_icons/flag-black.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-flg_blue', '../typo3conf/ext/tsconf/ext_icons/flag-blue.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-flg_green', '../typo3conf/ext/tsconf/ext_icons/flag-green.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-flg_red', '../typo3conf/ext/tsconf/ext_icons/flag-red.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-flg_yellow', '../typo3conf/ext/tsconf/ext_icons/flag-yellow.png' );
 
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_blue', '../typo3conf/ext/tsconf/ext_icons/folder-blue.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_bkmrk', '../typo3conf/ext/tsconf/ext_icons/folder-bookmark.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_brown', '../typo3conf/ext/tsconf/ext_icons/folder-brown.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_cyan', '../typo3conf/ext/tsconf/ext_icons/folder-cyan.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_dev', '../typo3conf/ext/tsconf/ext_icons/folder-development.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_docs', '../typo3conf/ext/tsconf/ext_icons/folder-documents.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_down', '../typo3conf/ext/tsconf/ext_icons/folder-downloads.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_fvrts', '../typo3conf/ext/tsconf/ext_icons/folder-favorites.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_green', '../typo3conf/ext/tsconf/ext_icons/folder-green.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_imprtt', '../typo3conf/ext/tsconf/ext_icons/folder-important.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_locked', '../typo3conf/ext/tsconf/ext_icons/folder-locked.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_orange', '../typo3conf/ext/tsconf/ext_icons/folder-orange.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld', '../typo3conf/ext/tsconf/ext_icons/folder.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_red', '../typo3conf/ext/tsconf/ext_icons/folder-red.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_remote', '../typo3conf/ext/tsconf/ext_icons/folder-remote.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_sound', '../typo3conf/ext/tsconf/ext_icons/folder-sound.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_tar', '../typo3conf/ext/tsconf/ext_icons/folder-tar.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_txt', '../typo3conf/ext/tsconf/ext_icons/folder-txt.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_video', '../typo3conf/ext/tsconf/ext_icons/folder-video.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_violet', '../typo3conf/ext/tsconf/ext_icons/folder-violet.png' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_yellow', '../typo3conf/ext/tsconf/ext_icons/folder-yellow.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_blue', '../typo3conf/ext/tsconf/ext_icons/folder-blue.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_bkmrk', '../typo3conf/ext/tsconf/ext_icons/folder-bookmark.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_brown', '../typo3conf/ext/tsconf/ext_icons/folder-brown.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_cyan', '../typo3conf/ext/tsconf/ext_icons/folder-cyan.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_dev', '../typo3conf/ext/tsconf/ext_icons/folder-development.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_docs', '../typo3conf/ext/tsconf/ext_icons/folder-documents.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_down', '../typo3conf/ext/tsconf/ext_icons/folder-downloads.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_fvrts', '../typo3conf/ext/tsconf/ext_icons/folder-favorites.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_green', '../typo3conf/ext/tsconf/ext_icons/folder-green.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_imprtt', '../typo3conf/ext/tsconf/ext_icons/folder-important.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_locked', '../typo3conf/ext/tsconf/ext_icons/folder-locked.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_orange', '../typo3conf/ext/tsconf/ext_icons/folder-orange.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld', '../typo3conf/ext/tsconf/ext_icons/folder.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_red', '../typo3conf/ext/tsconf/ext_icons/folder-red.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_remote', '../typo3conf/ext/tsconf/ext_icons/folder-remote.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_sound', '../typo3conf/ext/tsconf/ext_icons/folder-sound.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_tar', '../typo3conf/ext/tsconf/ext_icons/folder-tar.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_txt', '../typo3conf/ext/tsconf/ext_icons/folder-txt.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_video', '../typo3conf/ext/tsconf/ext_icons/folder-video.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_violet', '../typo3conf/ext/tsconf/ext_icons/folder-violet.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-fld_yellow', '../typo3conf/ext/tsconf/ext_icons/folder-yellow.png' );
 
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-jquery', '../typo3conf/ext/tsconf/ext_icons/jQuery.gif' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-jquery', '../typo3conf/ext/tsconf/ext_icons/jQuery.gif' );
 
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-library', '../typo3conf/ext/tsconf/ext_icons/library.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-library', '../typo3conf/ext/tsconf/ext_icons/library.png' );
 
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-belayout', '../typo3conf/ext/tsconf/ext_icons/backend_layout.gif' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-tsconf', '../typo3conf/ext/tsconf/ext_icons/template.gif' );
-    t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-typo3', '../typo3conf/ext/tsconf/ext_icons/typo3.png' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-belayout', '../typo3conf/ext/tsconf/ext_icons/backend_layout.gif' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-tsconf', '../typo3conf/ext/tsconf/ext_icons/template.gif' );
+    TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-typo3', '../typo3conf/ext/tsconf/ext_icons/typo3.png' );
 
     break;
 }
@@ -276,7 +276,9 @@ switch ( $confArr[ 'tca_ttcontentimages' ] )
   case('Bootstrap'):
   case('Default (recommended)'):
   default:
-    \TYPO3\CMS\Core\Utility\GeneralUtility::loadTCA( 'tt_content' );
+    // #i0006, 141208, dwildt, -
+    // Breaking: #61785 - loadTCA function in GeneralUtility removed
+    //\TYPO3\CMS\Core\Utility\GeneralUtility::loadTCA( 'tt_content' );
     // default: $TCA['tt_content']['columns']['imageheight']['config']['eval'] = 'int';
     unset( $TCA[ 'tt_content' ][ 'columns' ][ 'imageheight' ][ 'config' ][ 'eval' ] );
     unset( $TCA[ 'tt_content' ][ 'columns' ][ 'imagewidth' ][ 'config' ][ 'eval' ] );
@@ -314,9 +316,11 @@ switch ( $confArr[ 'tca_ttcontentimages' ] )
 
 if ( $confArr[ 'tca_systemplate' ] )
 {
-  \TYPO3\CMS\Core\Utility\GeneralUtility::loadTCA( 'sys_template' );
-  $TCA[ 'sys_template' ][ 'columns' ][ 'include_static_file' ][ 'config' ][ 'selectedListStyle' ] = 'width:360px;';
-  $TCA[ 'sys_template' ][ 'columns' ][ 'include_static_file' ][ 'config' ][ 'itemListStyle' ] = 'width:360px;';
+  // #i0006, 141208, dwildt, -
+  // Breaking: #61785 - loadTCA function in GeneralUtility removed
+  //\TYPO3\CMS\Core\Utility\GeneralUtility::loadTCA( 'sys_template' );
+  $TCA[ 'sys_template' ][ 'columns' ][ 'include_static_file' ][ 'config' ][ 'selectedListStyle' ] = 'width:385px;';
+  $TCA[ 'sys_template' ][ 'columns' ][ 'include_static_file' ][ 'config' ][ 'itemListStyle' ] = 'width:385px;';
   $TCA[ 'sys_template' ][ 'columns' ][ 'include_static_file' ][ 'config' ][ 'size' ] = '40';
 }
 // improve sys_template
