@@ -14,7 +14,7 @@ if( !isset( $_EXTCONF['page_mod_shared_deflangauge']))
 
 if( !isset( $_EXTCONF['page_mod_web_layout_menu_function']))
 {
-  $_EXTCONF['page_mod_web_layout_menu_function'] = 1;
+  $_EXTCONF['page_mod_web_layout_menu_function'] = 0;
 }
 
 if( !isset( $_EXTCONF['page_mod_web_list_enableButtons']))

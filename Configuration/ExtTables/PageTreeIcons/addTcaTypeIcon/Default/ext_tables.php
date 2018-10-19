@@ -4,11 +4,13 @@ if ( !defined( 'TYPO3_MODE' ) )
 {
   die( 'Access denied.' );
 }
-
+//var_dump( $extIconPath . 'application-exit.png');
+//die();
+//TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-start', '../typo3conf/ext/start/ext_icon.gif' );
 // #34858, 120320, dwildt
 TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-appl-exit', $extIconPath . 'application-exit.png' );
 TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-appl-rss', $extIconPath . 'application-rss+xml.png' );
-TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-appl-intrnt', $extIconPath . 'applications-internet.png' );
+TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-appl-intnt', $extIconPath . 'applications-internet.png' );
 TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-calendar', $extIconPath . 'office-calendar.png' );
 TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-animator', $extIconPath . 'tool-animator.png' );
 TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-balloon', $extIconPath . 'view-conversation-balloon.png' );
@@ -76,5 +78,3 @@ TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-libra
 TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-belayout', $extIconPath . 'backend_layout.gif' );
 TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-tsconf', $extIconPath . 'template.gif' );
 TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-typo3', $extIconPath . 'typo3.png' );
-
-?>

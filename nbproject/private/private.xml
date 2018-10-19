@@ -2,22 +2,22 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group name="hfs-berlin">
-            <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/userTSconfig_options_defaultUploadFolder.txt</file>
-            <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/ext_localconf.php</file>
-            <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/ext_conf_template.txt</file>
-            <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/ChangeLog</file>
-            <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/ext_emconf.php</file>
-        </group>
         <group name="loewengruppe"/>
-        <group>
-            <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/Configuration/ExtTables/PageTreeIcons/ext_tables.php</file>
-            <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/Resources/Private/myPageTreeIcons.php</file>
-        </group>
         <group name="calendar"/>
         <group name="organiser"/>
         <group name="markus-kurth.de"/>
         <group name="civserv"/>
         <group name="TYPO3 6.2 Upgrade"/>
+        <group name="quick_shop"/>
+        <group name="hfs-berlin"/>
+        <group>
+            <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/Resources/Private/Language/locallang.xlf</file>
+            <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/README.md</file>
+            <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/Resources/Private/Language/de_locallang.xlf</file>
+            <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/ext_tables.sql</file>
+            <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/ext_emconf.php</file>
+            <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/Classes/Utility/UserFunc/ConfTemplate.php</file>
+            <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/Resources/Private/Language/de.locallang_cm.xlf</file>
+        </group>
     </open-files>
 </project-private>

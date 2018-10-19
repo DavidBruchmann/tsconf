@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+	<file t3:id="1415814791" source-language="en" datatype="plaintext" original="messages" date="2016-06-25T19:00:32Z" product-name="cms">
+		<header/>
+		<body>
+			<trans-unit id="header_layout_formlabel">
+				<source>Header Format</source>
+			</trans-unit>
+			<trans-unit id="header_layout.I.1">
+				<source>Header 1</source>
+			</trans-unit>
+			<trans-unit id="header_layout.I.2">
+				<source>Header 2</source>
+			</trans-unit>
+			<trans-unit id="header_layout.I.3">
+				<source>Header 3</source>
+			</trans-unit>
+			<trans-unit id="header_layout.I.4">
+				<source>Header 4</source>
+			</trans-unit>
+			<trans-unit id="header_layout.I.5">
+				<source>Header 5</source>
+			</trans-unit>
+			<trans-unit id="header_layout.I.6">
+				<source>[Hidden]</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

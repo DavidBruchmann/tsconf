@@ -1,0 +1,15 @@
+  ///////////////////////////
+  //
+  // TCEFORM
+
+TCEFORM {
+  tt_content {
+    header_layout {
+      altLabels {
+        0   = LLL:EXT:tsconf/Resources/Private/Language/frontend/locallang_ttc.xlf:header_layout.I.1
+      }
+      removeItems = 1, 4, 5
+    }
+  }
+}
+  // TCEFORM

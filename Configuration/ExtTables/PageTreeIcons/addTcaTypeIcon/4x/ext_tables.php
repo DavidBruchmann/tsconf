@@ -8,7 +8,7 @@ if ( !defined( 'TYPO3_MODE' ) )
 // #34858, 120320, dwildt
 t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-appl-exit', $extIconPath . 'application-exit.png' );
 t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-appl-rss', $extIconPath . 'application-rss+xml.png' );
-t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-appl-intrnt', $extIconPath . 'applications-internet.png' );
+t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-appl-intnt', $extIconPath . 'applications-internet.png' );
 t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-calendar', $extIconPath . 'office-calendar.png' );
 t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-animator', $extIconPath . 'tool-animator.png' );
 t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-balloon', $extIconPath . 'view-conversation-balloon.png' );

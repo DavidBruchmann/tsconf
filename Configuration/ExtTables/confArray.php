@@ -28,11 +28,6 @@ if( !isset( $confArr['page_mod_web_list_enableButtons']))
   $confArr['page_mod_web_list_enableButtons'] = 1;
 }
 
-if( !isset( $confArr['page_tceform_pages']))
-{
-  $confArr['page_tceform_pages'] = 1;
-}
-
 if( !isset( $confArr['page_tceform_ttcontent']))
 {
   $confArr['page_tceform_ttcontent'] = 1;

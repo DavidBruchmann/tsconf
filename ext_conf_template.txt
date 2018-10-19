@@ -4,16 +4,14 @@ page_tceform_ttcontent = 1
 tca_ttcontentimages = Default (recommended)
   # cat=edit area/102;    type=options[,en,de]; label=Default language icon: Set the default language icon to Englisch or German. Recommended, if you have a localised website and the default language is English or German.
 page_mod_shared_deflangauge =
-  # cat=edit area/103;    type=boolean; label=Simplify page properties: Fields alias and contend_from_pid will be disabled.
-page_tceform_pages = 0
   # cat=edit area/104;    type=boolean; label=Big form fields: [recommendend] TypoScript templates: Display include static templates with place for upto 40 items and an enhanced width.
 tca_systemplate = 1
 
   # cat=module file/200;  type=boolean; label=File list with enabled buttons: [recommendend] Will be enabled by default: [Extended view], [Display thumbnails] and [Show clipboard].  You need TYPO3 >= 4.5.
 user_options_filelist_enableButtons = 1
 
-  # cat=module web/300;   type=boolean; label=Web page with reduced menu: [recommendend] Quick Edit and Page Information will be removed.
-page_mod_web_layout_menu_function = 1
+  # cat=module web/300;   type=boolean; label=Web page with reduced menu: Quick Edit and Page Information will be removed.
+page_mod_web_layout_menu_function = 0
   # cat=module web/301;   type=boolean; label=Web list with enabled buttons: [recommendend] Will be enabled by default: [Extended view] and [Show clipboard]. [Localization view] won't be overridden. You need TYPO3 >= 4.5.
 page_mod_web_list_enableButtons = 1
 
@@ -33,3 +31,6 @@ user_options_cache = 1
 user_clearcachesystem = 1
   # cat=user/603;         type=boolean; label=Default Upload Folder: Sets the default upload folder to 1:user_upload/, where 1 is the uid of your fileadmin storage. This option is allowed only, if all backend users have access to fileadmin/user_upload by a filemount! The upload button in content elements is missing without a default upload folder. See details at: http://docs.typo3.org/typo3cms/TSconfigReference/UserTsconfig/Options/
 user_options_defaultUploadFolder = 0
+
+  # cat=Help !/198;       type=user[EXT:tsconf/Classes/Utility/UserFunc/ConfTemplate.php:Netzmacher\Tsconf\Utility\UserFunc\ConfTemplate->promptExternalLinks]; label=External Links
+helpExternalLinks = 1

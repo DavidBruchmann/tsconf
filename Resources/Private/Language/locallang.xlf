@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2014-03-21T20:06:40Z" product-name="tsconf">
+    <header/>
+    <body>
+      <trans-unit id="promptExternalLinksBody">
+        <source><![CDATA[
+        <div style="float:right;padding-left:1em;">
+          <a href="https://die-netzmacher.de"
+            alt="tsconf is powered by Dirk Wildt (die-netzmacher.de)"
+            title="tsconf is powered by Dirk Wildt (die-netzmacher.de)"
+            target="_blank">
+            <img src="../../../../typo3conf/ext/tsconf/Resources/Public/Icons/CorporateDesign/tsconf_90x80.gif"
+              width="90"
+              height="80"
+              title="tsconf is powered by Dirk Wildt (die-netzmacher.de)" /></a>
+          <a href="http://wildt.at.die-netzmacher.de/"
+            alt="tsconf is powered by Dirk Wildt (die-netzmacher.de)"
+            title="tsconf is powered by Dirk Wildt (die-netzmacher.de)"
+            target="_blank">
+            <img src="../../../../typo3conf/ext/tsconf/Resources/Public/Icons/CorporateDesign/die-netzmacher-logo-quadrat.png"
+              width="80"
+              height="80"
+              title="tsconf is powered by Dirk Wildt (die-netzmacher.de)" /></a>
+        </div>
+        <h1 style="text-align:left;">
+          Helpful Links
+        </h1>
+        <h2 style="font-size: 1em;margin: 1em 0 0.4em;text-align: left;">
+          tsconf - Simplify your TYPO3 Backend!
+        </h2>
+        <ul style="list-style:outside;margin-left:2em;">
+          <li style="margin-bottom:.6em;">
+            <a href="http://typo3.org/extension-manuals/tsconf/"
+              style="background:none;border:none;float:none;text-decoration:underline;"
+              alt="tsconf - Manual (HTML)"
+              title="tsconf - Manual (HTML)"
+              target="_blank">Manual (HTML) &raquo;</a>
+          </li>
+          <li style="margin-bottom:.6em;">
+            <a href="../../../../typo3conf/ext/tsconf/doc/manual.pdf"
+              style="background:none;border:none;float:none;text-decoration:underline;"
+              alt="tsconf - Manual (PDF)"
+              title="tsconf - Manual (PDF)"
+              target="_blank">Manual (PDF) &raquo;</a>
+          </li>
+        </ul>
+        <h2 style="font-size: 1em;margin: 1em 0 0.4em;text-align: left;">
+          Developer
+        </h2>
+        <ul style="list-style:outside;margin-left:2em;">
+          <li style="margin-bottom:.6em;">
+            <a href="http://wildt.at.die-netzmacher.de/"
+              style="background:none;border:none;float:none;text-decoration:underline;"
+              alt="Dirk Wildt (Die Netzmacher) - the developer of tsconf."
+              title="Dirk Wildt (Die Netzmacher) - the developer of tsconf."
+              target="_blank">Dirk Wildt (Die Netzmacher) &raquo;</a>
+          </li>
+        </ul>
+      ]]></source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

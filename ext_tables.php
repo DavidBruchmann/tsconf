@@ -5,36 +5,48 @@ if ( !defined( 'TYPO3_MODE' ) )
   die( 'Access denied.' );
 }
 
-////////////////////////////////////////////////////////////////////////////
-//
-// INDEX
-// Set TYPO3 version
-// Configuration by the extension manager
-// Add pagetree icons
-////////////////////////////////////////////////////////////////////////////
-//
-// Set TYPO3 version
-// Set TYPO3 version as integer (sample: 4.7.7 -> 4007007)
+use Netzmacher\Tsconf\Hooks\ClickMenuAction;
+
+/* * ****************************************************************************
+ *
+ * INDEX
+ *
+ * Set TYPO3 version
+ * Add page TSconf and user TSconf
+ * Add pagetree icons
+ * tca_ttcontentimages
+ * page_tceform_ttcontent
+ * tca_systemplate
+ * pagetree_enhanced_context_menu
+ * **************************************************************************** */
+
+
+/* * ****************************************************************************
+ * Set TYPO3 version
+ * **************************************************************************** */
+
 list( $main, $sub, $bugfix ) = explode( '.', TYPO3_version );
 $version = ( ( int ) $main ) * 1000000;
 $version = $version + ( ( int ) $sub ) * 1000;
 $version = $version + ( ( int ) $bugfix ) * 1;
 $typo3Version = $version;
-// Set TYPO3 version as integer (sample: 4.7.7 -> 4007007)
-// Set TYPO3 version
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// Configuration by the extension manager
+
+/* * ****************************************************************************
+ * Add page TSconf and user TSconf
+ * **************************************************************************** */
 
 require_once( PATH_typo3conf . 'ext/tsconf/Configuration/ExtTables/confArray.php' );
 
+/* * ****************************************************************************
+ * Add pagetree icons
+ * **************************************************************************** */
+
 require_once( PATH_typo3conf . 'ext/tsconf/Configuration/ExtTables/ext_tables.php' );
 
-// SWITCH  : TYPO3 version
-// Add pagetree icons
-////////////////////////////////////////////////////////////////////////////
-//
-// improve tt_content
+/* * ****************************************************************************
+ * tca_ttcontentimages
+ * **************************************************************************** */
+
 // #62476, 141026, dwildt, +
 switch ( $confArr[ 'tca_ttcontentimages' ] )
 {
@@ -46,9 +58,9 @@ switch ( $confArr[ 'tca_ttcontentimages' ] )
     // #i0006, 141208, dwildt, -
     // Breaking: #61785 - loadTCA function in GeneralUtility removed
     //\TYPO3\CMS\Core\Utility\GeneralUtility::loadTCA( 'tt_content' );
-    // default: $TCA['tt_content']['columns']['imageheight']['config']['eval'] = 'int';
-    unset( $TCA[ 'tt_content' ][ 'columns' ][ 'imageheight' ][ 'config' ][ 'eval' ] );
-    unset( $TCA[ 'tt_content' ][ 'columns' ][ 'imagewidth' ][ 'config' ][ 'eval' ] );
+    // default: $GLOBALS[ 'TCA' ]['tt_content']['columns']['imageheight']['config']['eval'] = 'int';
+    unset( $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'imageheight' ][ 'config' ][ 'eval' ] );
+    unset( $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'imagewidth' ][ 'config' ][ 'eval' ] );
     break;
 }
 switch ( $confArr[ 'tca_ttcontentimages' ] )
@@ -74,32 +86,43 @@ switch ( $confArr[ 'tca_ttcontentimages' ] )
     break;
 }
 
+/* * ****************************************************************************
+ * page_tceform_ttcontent
+ * **************************************************************************** */
+
+if ( $confArr[ 'page_tceform_ttcontent' ] )
+{
+  $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'SYS' ][ 'locallangXMLOverride' ][ 'EXT:frontend/Resources/Private/Language/locallang_ttc.xlf' ][] = 'EXT:tsconf/Resources/Private/Language/frontend/locallang_ttc.xlf';
+}
 
 
-// improve tt_content
-////////////////////////////////////////////////////////////////////////////
-//
-// improve sys_template
+/* * ****************************************************************************
+ * tca_systemplate
+ * **************************************************************************** */
 
 if ( $confArr[ 'tca_systemplate' ] )
 {
   // #i0006, 141208, dwildt, -
   // Breaking: #61785 - loadTCA function in GeneralUtility removed
   //\TYPO3\CMS\Core\Utility\GeneralUtility::loadTCA( 'sys_template' );
-  $TCA[ 'sys_template' ][ 'columns' ][ 'include_static_file' ][ 'config' ][ 'selectedListStyle' ] = 'width:385px;';
-  $TCA[ 'sys_template' ][ 'columns' ][ 'include_static_file' ][ 'config' ][ 'itemListStyle' ] = 'width:385px;';
-  $TCA[ 'sys_template' ][ 'columns' ][ 'include_static_file' ][ 'config' ][ 'size' ] = '40';
+  $GLOBALS[ 'TCA' ][ 'sys_template' ][ 'columns' ][ 'include_static_file' ][ 'config' ][ 'selectedListStyle' ] = 'width:385px;';
+  $GLOBALS[ 'TCA' ][ 'sys_template' ][ 'columns' ][ 'include_static_file' ][ 'config' ][ 'itemListStyle' ] = 'width:385px;';
+  $GLOBALS[ 'TCA' ][ 'sys_template' ][ 'columns' ][ 'include_static_file' ][ 'config' ][ 'size' ] = '40';
 }
-// improve sys_template
 
+/* * ****************************************************************************
+ * pagetree_enhanced_context_menu
+ * **************************************************************************** */
+
+// #i0012, 160625, dwildt, Update code
 // #70445, 151006, dwildt, 9+
-if ( TYPO3_MODE == 'BE' && $confArr[ 'pagetree_enhanced_context_menu' ])
+if ( TYPO3_MODE == 'BE' && $confArr[ 'pagetree_enhanced_context_menu' ] )
 {
   $extPath = \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( $_EXTKEY );
   \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerExtDirectComponent(
           'TYPO3.Tsconf.ClickmenuAction', 'Netzmacher\\Tsconf\\Hooks\\ClickMenuAction'
   );
   $GLOBALS[ 'TBE_MODULES' ][ '_configuration' ][ $_EXTKEY ][ 'jsFiles' ][ 'TreeActions' ] = 'EXT:tsconf/Resources/Public/Js/TreeActions.js';
-  \Netzmacher\Tsconf\Hooks\ClickMenuAction::addContextMenuItems();
+  ClickMenuAction::addContextMenuItems();
 }
 
