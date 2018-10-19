@@ -1,19 +1,10 @@
 <?php
 
-//$typo_db_extTableDef_script = 'extTables.php';
 // #70445, 151006, dwildt, 3+
 if( !defined( 'TYPO3_MODE' ) )
 {
   die( 'Access denied.' );
 }
-
-  /** @var \TYPO3\CMS\Core\Imaging\IconRegistry $iconRegistry */
-  $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance( \TYPO3\CMS\Core\Imaging\IconRegistry::class );
-//  $iconRegistry->registerIcon(
-//          'animator'
-//          , \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class
-//          , [ 'source' => 'EXT:tsconf/fi-address-book.svg' ]
-//  );
 
 /* * ****************************************************************************
  *
