@@ -29,18 +29,10 @@ $typo3Version = $version;
 //
 // Configuration by the extension manager
 
-$confArr = unserialize( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'tsconf' ] );
+require_once( PATH_typo3conf . 'ext/tsconf/Configuration/ExtTables/confArray.php' );
 
-// SWITCH  : TYPO3 version
-switch ( true )
-{
-  case( $typo3Version < 6000000 ):
-    require_once( PATH_typo3conf . 'ext/tsconf/Configuration/ExtTables/4x/PageTreeIcons.php' );
-    break;
-  default:
-    require_once( PATH_typo3conf . 'ext/tsconf/Configuration/ExtTables/Default/PageTreeIcons.php' );
-    break;
-}
+require_once( PATH_typo3conf . 'ext/tsconf/Configuration/ExtTables/ext_tables.php' );
+
 // SWITCH  : TYPO3 version
 // Add pagetree icons
 ////////////////////////////////////////////////////////////////////////////

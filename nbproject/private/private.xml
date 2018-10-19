@@ -11,6 +11,12 @@
             <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/ChangeLog</file>
             <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/ext_emconf.php</file>
         </group>
-        <group/>
+        <group name="civserv"/>
+        <group name="loewengruppe"/>
+        <group>
+            <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/ext_conf_template.txt</file>
+            <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/ChangeLog</file>
+            <file>file:/var/www/typo3_61.local/typo3conf/ext/tsconf/Resources/Private/myPageTreeIcons.php</file>
+        </group>
     </open-files>
 </project-private>
