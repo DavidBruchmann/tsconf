@@ -1,3 +1,13 @@
+6.0.1
+  15-01-20
+  Feature
+  * #i0008: Compatibility for TYPO3 4.x
+
+6.0.0
+  14-12-16
+  Feature
+  * #i0007: Default upload folder
+
 1.6.0
   14-10-27
   Feature
