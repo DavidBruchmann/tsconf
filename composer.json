@@ -21,7 +21,7 @@
 		"tsconf": "self.version",
 		"wdb/tsconf": "self.version"
 	},
-    "suggest": {
+    "require": {
         "typo3/cms": ">=6.2.0,<=9.0.99"
     }
 }
