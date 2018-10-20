@@ -12,7 +12,7 @@ $extIconPath = 'EXT:tsconf/Resources/Public/Icons/PageTree/';
 $extIcons = array(
 		'animator' => array(
 				'identifier' => 'contains-animator'
-				, 'key' => 'animator'			// <- Key must be the part behind contain- of the identifier!
+				, 'key' => 'animator'			// <- Key must be the part behind contains- of the identifier!
 				, 'label' => 'Application animator'
 				, 'source' => $extIconPath . 'tool-animator.png'
 		),

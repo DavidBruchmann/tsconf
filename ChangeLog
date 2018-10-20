@@ -1,9 +1,21 @@
+7.2.4
+  2017-12-29
+	Improvement
+	* #i0022: Move some code from ext_tables.php to TCA/Overrides
+	Bugfix
+	* #i0021: Extension icon was mising 
+
+7.2.3
+  2017-10-20
+	Improvement
+	* #i0020: Icon for E-mail (from TYPO3 8.7 only)
+
 7.2.2
   2017-10-02
 	Improvement
 	* #i0019: Extension manager > Reduce headers
 						* Had removed 1,4 and 5. Is changed to 4 and 5 only
-						* This in in respect to fluid_styled_content:
+						* This is in respect to fluid_styled_content:
 							* 0 (Default) is wrapped with h2
 
 7.2.1
