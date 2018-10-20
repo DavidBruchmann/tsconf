@@ -16,7 +16,7 @@ how to configure the page TypoScript.
 
 The Backend Simplifier enables you to configure the most popular properties by a mouse click.
 
-You can manage more than a dozen properties by a mouse click:
+You can manage more than a dozen properties:
 
 All editors (backend users) should
 
