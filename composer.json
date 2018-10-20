@@ -5,23 +5,23 @@
 	"keywords": [
 		"typo3",
 		"TYPO3 CMS",
-		"extension",
+        "extension",
 		"tsconf",
-		"Die Netzmacher",
-		"Dirk Wildt"
+        "Die Netzmacher",
+        "Dirk Wildt"
 	],
 	"homepage": "https://extensions.typo3.org/extension/tsconf/",
 	"authors": [
 		{
 			"name": "Dirk Wildt (Die Netzmacher)",
-			"homepage": "https://die-netzmacher.de/"
+            "homepage": "https://die-netzmacher.de/"
 		}
 	],
 	"replace": {
 		"tsconf": "self.version",
 		"wdb/tsconf": "self.version"
 	},
-	"require": {
-		"typo3/cms": ">=6.2.0,<=8.9.99"
-	}
+    "require": {
+        "typo3/cms": ">=6.2.0,<=8.9.99"
+    }
 }
