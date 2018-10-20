@@ -28,7 +28,7 @@ Backend Simplifier
 		en
 
 	:Description:
-		The Backend Simplifier offers the configuration of the eight most commonly used porperties for simplifying the TYPO3 backend by a mouse cklick. User interface is the extension manager.
+		The Backend Simplifier offers the configuration of the eight most commonly used porperties for simplifying the TYPO3 backend by a mouse cklick. User interface is the estension manager.
 		Enable page tree uids, use indvidual page tree icons, activate the extended view and the clipboard and the admin panel for all editors.
 		Extend the cache thunderbolts with one for the system cache.
 

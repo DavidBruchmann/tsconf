@@ -21,7 +21,7 @@ Links
 	https://die-netzmacher.de
 
 :Download:
-	https://docs.typo3.org/typo3cms/extensions/tsconf/
+	https://typo3.org/extensions/repository/view/tsconf
 
 :Git Repository:
 	https://gitlab.die-netzmacher.de/typo3/tsconf
