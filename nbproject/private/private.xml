@@ -11,7 +11,7 @@
         <group name="quick_shop"/>
         <group name="hfs-berlin"/>
         <group/>
-        <group name="Upgrade TYPO3 8.x"/>
         <group name="Caddy"/>
+        <group name="Upgrade TYPO3 8.x"/>
     </open-files>
 </project-private>

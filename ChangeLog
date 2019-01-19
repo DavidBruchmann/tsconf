@@ -1,3 +1,13 @@
+9.0.2
+  18-11-25
+	Improvement
+  * #i0025: Compatible with TYPO3 9.5
+
+9.0.1
+  2018-09-11
+	Improvement
+	* #i0024: labelling ext_conf_template.txt
+
 9.0.0
   2017-12-30
 	BUG: The tsconf page tree icons won't displayed. I will fix it soon as possible.

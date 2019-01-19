@@ -5,7 +5,7 @@ $EM_CONF[ $_EXTKEY ] = array(
   'description' => 'The Backend Simplifier offers the configuration of the eight most commonly used porperties for simplifying the TYPO3 backend by a mouse cklick. User interface is the extension manager. Enable page tree uids, use indvidual page tree icons, activate the extended view and the clipboard and the admin panel for all editors. Extend the cache thunderbolts with one for the system cache.',
   'category' => 'be',
   'shy' => 0,
-  'version' => '9.0.0',
+  'version' => '9.0.2',
   'dependencies' => '',
   'conflicts' => '',
   'priority' => '',
@@ -24,7 +24,7 @@ $EM_CONF[ $_EXTKEY ] = array(
   'CGLcompliance_note' => '',
   'constraints' => array(
     'depends' => array(
-      'typo3' => '6.2.0-9.0.99',
+      'typo3' => '6.2.0-9.9.99',
     ),
     'conflicts' => array(
     ),

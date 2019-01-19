@@ -6,7 +6,7 @@ is the extension manager. Enable page tree uids, use indvidual page tree icons,
 activate the extended view and the clipboard and the admin panel for all editors.
 Extend the cache thunderbolts with one for the system cache.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-Versions 0.0.4 - 9.0.0 have been completely provided by Dirk Wildt (Die Netzmacher).   
+Versions 0.0.4 - 9.0.2 have been completely provided by Dirk Wildt (Die Netzmacher).   
 These Versions have been downloaded here: https://extensions.typo3.org/extension/tsconf/  
 
 The versions provided here are copies but versioned and tagged with git,
