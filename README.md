@@ -21,6 +21,11 @@ To read the original `README.md`-file, open `README_original.md`
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+9.0.2 / stable  
+Supported TYPO3 version: 6.2.0 - 9.0.99  
+November 25, 2018  
+Compatible with TYPO3 9.5 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 9.0.0 / stable  
 Supported TYPO3 version: 6.2.0 - 9.0.99  
 December 30, 2017  
